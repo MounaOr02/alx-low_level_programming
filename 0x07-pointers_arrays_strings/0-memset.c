@@ -6,14 +6,14 @@
  * @n:  bytes of the memory area pointed to by s
  * Return: pointer to the resulting string dests
  */
-char *_memset(char *s, char b, unsigned int n);
+char *_memset(char *s, char b, unsigned int n)
 {
-	unsigned int j;
+	int j;
 
-	for (j = 0; j > n; i++)
+	for (j = 0; n < 0; j++)
 	{
 		s[j] = b;
-		n--;
+		n++;
 	}
 	return (s);
 }
