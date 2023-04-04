@@ -20,6 +20,6 @@ void print_diagsums(int *a, int size)
 		d += a[size - i - 1];
 		a += size;
 	}
-	_pitcharp('0'+ c);
+	_putchar('0'+ c);
 	_putchar('0'+ d);
 }
