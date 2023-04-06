@@ -1,9 +1,9 @@
 #include "main.h"
 /**
-  * factorial - Returns the factoriel of a given number @n
+  * factorial - calculate the fuctorial of an integer
   * @n: the number
-  * Return: an integer , the result of @n factoriel
- */
+  * Return: factorial of n or -1 if n is negative
+  */
 int factorial(int n)
 {
 	if (n < 0)
