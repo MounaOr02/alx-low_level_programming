@@ -1,9 +1,9 @@
 #include "main.h"
 /**
-  * factorial - A funtio that returns the factoriel of a given number
+  * factorial - A funtio that returns the factoriel of a given number @n
   * @n: the number of type int
-  * Return: The result of @n factoriel 
-  */
+  * Return: an integer , the result of @n factoriel
+ */
 int factorial(int n)
 {
 	if (n < 0)
