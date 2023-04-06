@@ -1,9 +1,9 @@
 #include "main.h"
 /**
   *puts_recursion - A function that printsa string
-  *Followed by new line
+  *followed by new line
   *@s: A pointer that points to a string
-  *Return: (Nothing)
+  *Return: (void)
   */
 void _puts_recursion(char *s)
 {
