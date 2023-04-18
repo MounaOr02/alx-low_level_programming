@@ -1,6 +1,11 @@
-#ifndef FUNCTION_LIKE_MACRO_H
-#define FUNCTION_LIKE_MACRO_H
-
-#define ABS(x) ((x) < (0) ? -(x) : (x))
-
-#endif
+#include <stdio.h>
+/**
+ * main - Entry point, a function that prints the name of the file
+ * it was compiled from.
+ * Return: Always 0 (success).
+ */
+int main(void)
+{
+	printf("%s\n", __FILE__);
+	return (0);
+}
